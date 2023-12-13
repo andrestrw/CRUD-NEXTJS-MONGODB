@@ -1,5 +1,4 @@
 import Link from "next/link";
-import explanation from "./explanation";
 
 export default function Navbar() {
   return (
