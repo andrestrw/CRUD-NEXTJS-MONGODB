@@ -4,11 +4,14 @@ export default function Navbar() {
   return (
     <>
       <nav className="flex justify-between items-center bg-slate-800 px-8 py-3">
-        <Link className="text-white font-bold" href={"/"}>
+        <Link className="text-white font-bold text-2xl" href={"/"}>
           CRUD | NEXTJS | MONGODB
         </Link>
 
-        <Link className="bg-white p-2" href={"/addTopic"}>
+        <Link
+          className="bg-white p-2 text-base font-bold px-2 "
+          href={"/addTopic"}
+        >
           Add Topic
         </Link>
       </nav>
